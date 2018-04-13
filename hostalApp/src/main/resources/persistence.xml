@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="happyFeetWeb">
-		<class>cl.camiletti.happyFeetWeb.model.Ubicacion</class>
-		<class>cl.camiletti.happyFeetWeb.model.Comuna</class>
-		<class>cl.camiletti.happyFeetWeb.model.Mensaje</class>
-		<class>cl.camiletti.happyFeetWeb.model.Paciente</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.Comida</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.DetallePedido</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.Empresa</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.Factura</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.FacturadoHab</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.FacturadoMenu</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.Habitacion</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.Huesped</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.OrdenCompra</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.OrdenPedido</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.Producto</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.Proveedor</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.TipoMenu</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.TipoUsuario</class>
+		<class>cl.softlitte.duoc.app.hostalApp.model.Usuario</class>
 	</persistence-unit>
 </persistence>

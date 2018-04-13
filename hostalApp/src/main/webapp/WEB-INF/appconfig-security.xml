@@ -21,7 +21,7 @@
         </authentication-provider>
     </authentication-manager>
 
-    <beans:bean id="userDetailsServiceImpl" class="cl.camiletti.happyFeetWeb.service.UserDetailsServiceImpl"></beans:bean>
+    <beans:bean id="userDetailsServiceImpl" class="cl.softlitte.duoc.app.hostalApp.service.UserDetailsServiceImpl"></beans:bean>
 
    
 </beans:beans>
